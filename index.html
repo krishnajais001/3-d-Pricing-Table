@@ -162,11 +162,64 @@
 
 /*  Media Query */
       
+
 @media (min-width: 360px) and (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
+  }
+
+  /* outer box */
+  .outerdiv {
+    height: 127px;
+    width: 40px;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    transform: skewY(45deg);
+    position: relative;
+    top: 19px;
+    right: 0px;
+    background: #ef476f;
+  }
+
+  .outerdiv2 {
+    height: 300px;
+    width: 40px;
+    /* border: 1px solid #f2f2f2; */
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    transform: skewY(-45deg);
+    position: relative;
+    top: 80px;
+    right: 37px;
+    background-color: #f2f2f2;
+    z-index: -3;
+  }
+
+  .outerdiv3 {
+    height: 127px;
+    width: 40px;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    transform: skewY(45deg);
+    position: relative;
+    top: 19px;
+    right: 0px;
+    background: #ef476f;
+  }
+
+  .outerdiv4 {
+    height: 300px;
+    width: 40px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    transform: skewY(-45deg);
+    position: relative;
+    top: 80px;
+    right: 37px;
+    background-color: #f2f2f2;
+    z-index: -3;
   }
 }
     </style>
